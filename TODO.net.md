@@ -6,6 +6,7 @@
 2，基础知识
 
         https://vincent.bernat.ch/en/blog/2017-ipv4-route-lookup-linux
+        https://vincent.bernat.ch/en/blog/2017-route-based-vpn
 
 
 3，大厂
