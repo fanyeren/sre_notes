@@ -12,3 +12,4 @@
 
         https://status.cloud.google.com/incident/cloud-networking/18012?m=1
         https://status.cloud.google.com/incident/cloud-networking/17002
+        https://blog.edgemesh.com/deploy-a-global-private-cdn-on-your-lunch-break-7550e9a9ad7e?gi=f06ff338874
