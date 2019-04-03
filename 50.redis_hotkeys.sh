@@ -13,3 +13,5 @@ kill -HUP $pid
 hot=$(cat /tmp/monitor | awk '{print $5}' | sed 's/"//g' | grep -E '[a-z]' | sort | uniq -c | sort -rn | head -1)
 
 echo "$hot"
+
+rm -f /tmp/monitor
