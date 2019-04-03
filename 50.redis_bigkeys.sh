@@ -14,3 +14,4 @@ for db in `echo $dbs`; do
 done
 
 echo $bigkeys | tr ';' '\n'
+rm -f /tmp/redis_bigkeys_result
