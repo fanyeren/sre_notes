@@ -13,3 +13,5 @@ kill -HUP $pid
 hot=$(perl -e 'open (my $in, "<", "/tmp/redis_hotkeys_result") or die $!; my @arr; my $new=0; my $result; while (my $line = <$in>) { chomp $line; if ($line eq "") { $new=1; $result=$arr[4] if $arr[4]; @arr=() } else { push @arr, $line;}; print $result, "\n" if $new && $result; $new=0}' | sort | grep -v ACK | uniq -c | sort -rn | head -1)
 
 echo "$hot"
+
+rm -f /tmp/redis_hotkeys_result
